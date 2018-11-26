@@ -1,0 +1,54 @@
+#######################################
+# Syntax Coloring Map For Adaino
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+AnalogDevice	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setAnalogInput	KEYWORD2
+setResolution	KEYWORD2
+setAnalogReference	KEYWORD2
+enableAcqBuffer	KEYWORD2
+disableAcqBuffer	KEYWORD2
+useSingleMode	KEYWORD2
+useFreerunMode	KEYWORD2
+disableAutoTrigger	KEYWORD2
+enableAutoTrigger	KEYWORD2
+begin	KEYWORD2
+end	KEYWORD2
+startConversion	KEYWORD2
+setTimeout	KEYWORD2
+getTimeout	KEYWORD2
+readInput	KEYWORD2
+peekInput	KEYWORD2
+readChunk	KEYWORD2
+peekChunk	KEYWORD2
+available	KEYWORD2
+flush	KEYWORD2
+getOverrun	KEYWORD2
+clearOverrun	KEYWORD2
+
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+AnalogIn	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ADA_AR_DEFAULT	LITERAL1
+ADA_AR_INTERNAL	LITERAL1
+ADA_AR_EXTERNAL	LITERAL1
+ADA_AR_INTERNAL1V0	LITERAL1
+ADA_AR_INTERNAL1V65	LITERAL1
+ADA_AR_INTERNAL2V23	LITERAL1
