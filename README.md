@@ -1,6 +1,8 @@
 # Adaino
 
-Adaino is an open source Analog Data Acquisition library for Arduino and IoT. It simplifies reading analog inputs not only for single conversion results but also for continuous signals with high frequency spectrums.
+Adaino is an open source Analog Data Acquisition library for Arduino. It simplifies reading analog inputs at any sampling rate and cares about the proper acquisition thereof.
+
+Visit [werktag.io/adaino](https://werktag.io/adaino/) for additional Adaino resources.
 
 Adaino is not mature yet, actively developed and new features are expected to be added soon. The public API should not be considered stable therefore.
 
@@ -12,10 +14,7 @@ To get you started, we created some examples. The most basic one is [ada.ino](ex
 
 ## Supported Hardware
 
-Adaino requires an Arduino device with a SAMD21 microcontroller. The following devices are known to be working:
-
-* [Arduino MKR family](https://store.arduino.cc/arduino-genuino/arduino-genuino-mkr-family)
-* [Adafruit Feather M0 Wifi](https://www.adafruit.com/product/3010) and related boards
+Adaino requires an Arduino device with a SAMD21 microcontroller. Visit [werktag.io/adaino](https://werktag.io/adaino/) for an up-to-date list of supported Arduino boards.
 
 ## Contributing
 
