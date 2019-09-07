@@ -102,7 +102,7 @@ void ADCBuffer::write(const void *buffer, size_t size) {
     if (size > space) { // buffer is overrunning >> throw away old data by overwritting it with new data
         int missingSpace = size - space;
         _overrun += missingSpace;
-        _rdIndex += missingSpace;
+        _rdIndex = (_rdIndex + missingSpace) % _bufferSize;
     }
     if (_wrIndex + size < _bufferSize) {
         memcpy(_buffer+_wrIndex, buffer, size);
